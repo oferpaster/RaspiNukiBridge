@@ -1,4 +1,5 @@
 # Home Assistant Virtual Nuki Bridge
+OFER
 
 Use this instead of the [Nuki Bridge](https://nuki.io/en/bridge/) device.
 
