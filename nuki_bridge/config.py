@@ -34,7 +34,7 @@ def init_config(config_file, addon_config_file):
             'server': {
                 'host': '0.0.0.0',
                 'port': '8080',
-                'adapter': 'hci0',
+                'adapter': 'hci1',
                 'name': 'RaspiNukiBridge',
                 'app_id': app_id,
                 'token': token
