@@ -17,7 +17,7 @@ ports_description:
 host_dbus: true
 image: ghcr.io/regevbr/nuki_bridge/{arch}
 options:
-  adapter: hci0
+  adapter: hci1
   command_timeout: 30
   connection_timeout: 10
   retry: 5

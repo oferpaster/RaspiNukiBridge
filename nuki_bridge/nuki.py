@@ -130,7 +130,7 @@ logger = logging.getLogger("raspinukibridge")
 
 class NukiManager:
 
-    def __init__(self, name, app_id, adapter="hci0"):
+    def __init__(self, name, app_id, adapter="hci1"):
         self.name = name
         self.app_id = app_id
         self.type_id = NukiClientType.BRIDGE

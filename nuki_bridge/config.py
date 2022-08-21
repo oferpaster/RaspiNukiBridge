@@ -58,7 +58,7 @@ def init_config(config_file, addon_config_file):
        global_command_timeout = addon_data["command_timeout"]
     name = data["server"]["name"]
     app_id = data["server"]["app_id"]
-    bt_adapter = data["server"].get("adapter", "hci0")
+    bt_adapter = data["server"].get("adapter", "hci1")
     nuki_manager = NukiManager(name, app_id, bt_adapter)
 
     if 'smartlock' in data:
